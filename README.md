@@ -1,0 +1,1 @@
+# verification-DRF-angular-project

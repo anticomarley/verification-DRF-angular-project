@@ -1,0 +1,26 @@
+{% extends "everify/index.html" %}
+   {% block content %}
+    <base href="/registration" />
+    <div id="all">
+        <div id="heading-breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#/student_alumni_registration" class="btn">Student / Alumni</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#/institution_registration" class="btn">Educational Institution</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#/corporate_registration" class="btn">Corporate Screeners</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-controller="RegisterController">
+            {$ test $}
+            <ng-view></ng-view>
+        </div>
+    </div>
+    <!-- /#all -->
+    {% endblock %}
